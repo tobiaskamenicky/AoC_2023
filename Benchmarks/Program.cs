@@ -1,21 +1,5 @@
-﻿using AdventOfCode2023;
-using BenchmarkDotNet.Attributes;
-using BenchmarkDotNet.Running;
+﻿using BenchmarkDotNet.Running;
+using Benchmarks;
 
-BenchmarkRunner.Run<BenchmarkDay1>();
-
-[MemoryDiagnoser]
-public class BenchmarkDay1
-{
-    [Benchmark]
-    public int Part1()
-    {
-        return Day1.Part1();
-    }
-
-    [Benchmark]
-    public int Part2()
-    {
-        return Day1.Part2();
-    }
-}
+// BenchmarkRunner.Run<BenchmarkDay1>();
+BenchmarkRunner.Run<BenchmarkDay2>();
