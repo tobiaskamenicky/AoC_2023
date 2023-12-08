@@ -5,7 +5,6 @@ namespace AdventOfCode2023;
 
 public static partial class Day1
 {
-    private static readonly SearchValues<char> _digitSearchValues = SearchValues.Create("123456789");
     private const string _digitOrStringNumberPattern = "[1-9]|one|two|three|four|five|six|seven|eight|nine";
 
     [GeneratedRegex(_digitOrStringNumberPattern)]
@@ -26,8 +25,8 @@ public static partial class Day1
         var sum = 0;
         foreach (var line in Input.AsSpan().EnumerateLines())
         {
-            var first = line.IndexOfAny(_digitSearchValues);
-            var last = line.LastIndexOfAny(_digitSearchValues);
+            var first = line.IndexOfAnyInRange('1', '9');
+            var last = line.LastIndexOfAnyInRange('1', '9');
             sum += (line[first..(first + 1)][0] - '0') * 10
                    + (line[last..(last + 1)][0] - '0');
         }
