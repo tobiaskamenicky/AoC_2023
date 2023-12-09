@@ -8,4 +8,5 @@ using Benchmarks;
 // BenchmarkRunner.Run<BenchmarkDay5>();
 // BenchmarkRunner.Run<BenchmarkDay6>();
 // BenchmarkRunner.Run<BenchmarkDay7>();
-BenchmarkRunner.Run<BenchmarkDay8>();
+// BenchmarkRunner.Run<BenchmarkDay8>();
+BenchmarkRunner.Run<BenchmarkDay9>();
