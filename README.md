@@ -10,30 +10,32 @@ Measured times\memory allocations do not include loading input nor displaying ou
 
  |                                        Day | Part | Mean Time | Allocated memory |
  |-------------------------------------------:| ---: |----------:|-----------------:|
- |   [1](https://adventofcode.com/2023/day/1) | Part 1 |   9.02 µs |              0 B |
- |                                            | Part 2 |  70.70 µs |              0 B |
- |   [2](https://adventofcode.com/2023/day/2) | Part 1 |  11.77 µs |              0 B |
- |                                            | Part 2 |  12.60 µs |              0 B |
- |   [3](https://adventofcode.com/2023/day/3) | Part 1 |  23.53 µs |              0 B |
- |                                            | Part 2 |  14.74 µs |              0 B |
- |   [4](https://adventofcode.com/2023/day/4) | Part 1 |  57.07 µs |              0 B |
- |                                            | Part 2 |  60.48 µs |              0 B |
- |   [5](https://adventofcode.com/2023/day/5) | Part 1 |  13.30 µs |              0 B |
- |                                            | Part 2 |  48.88 µs |              0 B |
- |   [6](https://adventofcode.com/2023/day/6) | Part 1 |  84.20 ns |              0 B |
- |                                            | Part 2 |  98.61 ns |              0 B |
- |   [7](https://adventofcode.com/2023/day/7) | Part 1 | 116.60 µs |         15.68 KB |
- |                                            | Part 2 | 116.70 µs |         15.68 KB |
- |   [8](https://adventofcode.com/2023/day/8) | Part 1 |   5.86 ms |              3 B |
- |                                            | Part 2 | 974.60 µs |         48.10 KB |
- |   [9](https://adventofcode.com/2023/day/9) | Part 1 |  51.64 µs |         21.88 KB |
- |                                            | Part 2 |  54.33 µs |         21.88 KB |
- | [10](https://adventofcode.com/2023/day/10) | Part 1 |  59.12 µs |              0 B |
- |                                            | Part 2 | 293.43 µs |        538.66 KB |
- | [11](https://adventofcode.com/2023/day/11) | Part 1 | 233.60 µs |          8.19 KB |
- |                                            | Part 2 | 233.60 µs |          8.19 KB |
- | [12](https://adventofcode.com/2023/day/12) | Part 1 | 468.50 µs |              0 B |
- |                                            | Part 2 | 190.63 ms |        273.38 KB |
+ |   [1](https://adventofcode.com/2023/day/1) | Part 1 |   9.02 µs |            0 B |
+ |                                            | Part 2 |  70.70 µs |            0 B |
+ |   [2](https://adventofcode.com/2023/day/2) | Part 1 |  11.77 µs |            0 B |
+ |                                            | Part 2 |  12.60 µs |            0 B |
+ |   [3](https://adventofcode.com/2023/day/3) | Part 1 |  23.53 µs |            0 B |
+ |                                            | Part 2 |  14.74 µs |            0 B |
+ |   [4](https://adventofcode.com/2023/day/4) | Part 1 |  57.07 µs |            0 B |
+ |                                            | Part 2 |  60.48 µs |            0 B |
+ |   [5](https://adventofcode.com/2023/day/5) | Part 1 |  13.30 µs |            0 B |
+ |                                            | Part 2 |  48.88 µs |            0 B |
+ |   [6](https://adventofcode.com/2023/day/6) | Part 1 |  84.20 ns |            0 B |
+ |                                            | Part 2 |  98.61 ns |            0 B |
+ |   [7](https://adventofcode.com/2023/day/7) | Part 1 | 116.60 µs |       15.68 KB |
+ |                                            | Part 2 | 116.70 µs |       15.68 KB |
+ |   [8](https://adventofcode.com/2023/day/8) | Part 1 |   5.86 ms |            3 B |
+ |                                            | Part 2 | 974.60 µs |       48.10 KB |
+ |   [9](https://adventofcode.com/2023/day/9) | Part 1 |  51.64 µs |       21.88 KB |
+ |                                            | Part 2 |  54.33 µs |       21.88 KB |
+ | [10](https://adventofcode.com/2023/day/10) | Part 1 |  59.12 µs |            0 B |
+ |                                            | Part 2 | 293.43 µs |      538.66 KB |
+ | [11](https://adventofcode.com/2023/day/11) | Part 1 | 233.60 µs |        8.19 KB |
+ |                                            | Part 2 | 233.60 µs |        8.19 KB |
+ | [12](https://adventofcode.com/2023/day/12) | Part 1 | 345.70 µs |            0 B |
+ |                                            | Part 2 | 161.15 ms |      279.83 KB |
+ | [13](https://adventofcode.com/2023/day/13) | Part 1 |  15.17 µs |            0 B |
+ |                                            | Part 2 |  18.26 µs |            0 B |
 
 Using [BenchmarkDotNet](https://github.com/dotnet/BenchmarkDotNet)
 ```
