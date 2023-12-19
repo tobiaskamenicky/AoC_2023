@@ -38,10 +38,16 @@ Measured times\memory allocations do not include loading input nor displaying ou
  |                                            | Part 2 |  18.26 µs |              0 B |
  | [14](https://adventofcode.com/2023/day/14) | Part 1 |   6.90 µs |              0 B |
  |                                            | Part 2 | 121.32 ms |        358.72 KB |
- | [15](https://adventofcode.com/2023/day/15) | Part 1 |  25.18 µs |              0 B |
- |                                            | Part 2 |  99.63 µs |        374.17 KB |
- | [16](https://adventofcode.com/2023/day/16) | Part 1 | 651.00 µs |          1.21 MB |
- |                                            | Part 2 | 130.87 ms |        239.08 MB |
+ | [15](https://adventofcode.com/2023/day/15) | Part 1 |  21.43 µs |              0 B |
+ |                                            | Part 2 |  80.41 µs |        374.17 KB |
+ | [16](https://adventofcode.com/2023/day/16) | Part 1 | 511.10 µs |          1.21 MB |
+ |                                            | Part 2 | 100.61 ms |        239.08 MB |
+ | [17](https://adventofcode.com/2023/day/17) | Part 1 |   2.26  s |          1.48 GB |
+ |                                            | Part 2 |   9.31  s |          5.00 GB |
+ | [18](https://adventofcode.com/2023/day/18) | Part 1 | 904.90 µs |        222.01 KB |
+ |                                            | Part 2 | 315.90 µs |        526.16 KB |
+ | [19](https://adventofcode.com/2023/day/19) | Part 1 | 198.70 µs |        615.17 KB |
+ |                                            | Part 2 | 185.90 µs |       1166.61 KB |
 
 
 Using [BenchmarkDotNet](https://github.com/dotnet/BenchmarkDotNet)
