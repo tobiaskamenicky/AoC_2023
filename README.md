@@ -48,6 +48,8 @@ Measured times\memory allocations do not include loading input nor displaying ou
  |                                            | Part 2 | 315.90 µs |        526.16 KB |
  | [19](https://adventofcode.com/2023/day/19) | Part 1 | 198.70 µs |        615.17 KB |
  |                                            | Part 2 | 185.90 µs |       1166.61 KB |
+ | [20](https://adventofcode.com/2023/day/20) | Part 1 |   2.14 ms |        801.93 KB |
+ |                                            | Part 2 |  28.55 ms |          6.10 MB |
 
 
 Using [BenchmarkDotNet](https://github.com/dotnet/BenchmarkDotNet)
