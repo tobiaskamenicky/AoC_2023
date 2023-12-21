@@ -20,4 +20,5 @@ using Benchmarks;
 // BenchmarkRunner.Run<BenchmarkDay17>();
 // BenchmarkRunner.Run<BenchmarkDay18>();
 // BenchmarkRunner.Run<BenchmarkDay19>();
-BenchmarkRunner.Run<BenchmarkDay20>();
+// BenchmarkRunner.Run<BenchmarkDay20>();
+BenchmarkRunner.Run<BenchmarkDay21>();
